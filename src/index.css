@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  color: yellow;
+  text-decoration: bold;
+  padding: 16px 10px;
+  padding-right: 15px;
+
+
+}
+.Menu {
+  display: flex;
+  position: fixed !important; 
+  flex-direction: column;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+h1{
+  margin: 0;
+  color: white;
+}
+.email{
+ border-radius: 20px;
+ display: flex;
+ align-items: flex-start;
+ margin-left: 98px;
+ margin-top: 100px;
+ color: white;
+}
+.lamd{
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 98px;
+  margin-top: 10px;
+  color: white;
+}
+.inp{
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 300px;
+  height: 30px;
+  margin-left: 90px;
+}
+.passwd{
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 5px;
+  height: 30px;
+  border: 2px solid black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+button{
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 310px;
+  font-weight: 600;
+  background-color: darkblue;
+  color: white;
+  margin-left: 90px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#login{
+  position: relative;
+  cursor: pointer;
+
+
+}
+#login, text{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+
+}
+
+
+.container{
+  height: 500px;
+  width: 500px;
+  border: 2px solid black ;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+
+}

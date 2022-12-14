@@ -1,0 +1,41 @@
+.dileep{
+    width: 70%;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-content: center;
+    
+   
+    
+}
+.dileep1{
+    padding-top: 30px;
+}
+.div1{
+    width: 40%;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.div2{
+    width: 40%;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.div3{
+    width: 40%;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.div4{
+    width: 40%;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
